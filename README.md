@@ -1,12 +1,19 @@
-Program menentukan Bilangan Terbesar
-Yang pertama masukan 3 bilangan dari terbesar hingga terkecil
-Masukan bilangan a
-Masukan bilangan b
-Masukan bilangan c
+PROGRAM MENENTUKAN BILANGAN TERBESAR
 
-Jika a lebih besar dari b dan a lebih besar dari c
-Jika b lebih besar dari c
-    print a terbesar dan c terkecil
-Jadi bilangan a terbesar dan c terkecil.
+Pertama kita harus menginput bilangan pertama sampai bilangan ketiga. Codingnya :
+
+a=int(input(‘Bilangan 1 = ‘))
+b=int(input(‘Bilangan 2 = ‘))
+c=int(input(‘Bilangan 3 = ‘))
+
+Selanjutnya kita menggunakan logika if dan Logika AND. Codingnya :
+
+if a>b and a>c:
+print (a, ‘Adalah Bilangan terbesar’)
+elif b>a and b>c:
+print (b, ‘Adalah Bilangan terbesar’)
+else:
+print (c, ‘Adalah Bilangan terbesar’)
+Penjelasannya : Jika a lebih dari b dan a lebih dari c, maka output bilangan a, kalau bilangan a bukan bilangan terbesar maka lanjut ke bilangan b, jika b lebih dari a dan b lebih dari c maka bilangan b Adalah Bilangan terbesar, kalau a dan b bukan bilangan terbesar maka bilangan c Adalah bilangan yang terbesar.
 
 ![2019-11-05](https://user-images.githubusercontent.com/57079848/68188618-229b4580-ffdc-11e9-9403-98ca1a2c7f5c.png)
