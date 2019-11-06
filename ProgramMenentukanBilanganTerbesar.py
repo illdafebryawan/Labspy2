@@ -1,12 +1,21 @@
-a = (input("Masukan bilangan A:"))
-b = (input("Masukan bilangan B:"))
-c = (input("Masukan bilangan C:"))
-
+print ('____________________________________')
+print ('PROGRAM MENENTUKAN BILANGAN TERBESAR')
+print ('____________________________________')
+print ('')
+print ('Masukkan 3 Bilangan yang diinginkan!')
+a=int(input('Bilangan 1 = '))
+b=int(input('Bilangan 2 = '))
+c=int(input('Bilangan 3 = '))
 if a>b and a>c:
-    if b>c:
-        print(a,'terbesar dan' , c,' terkecil')
-    else:
-        print (a, 'terbesar dan' , b,'terkecil')
+    print('')
+    print('=====================================')
+    print (a, 'Adalah Bilangan terbesar')
 elif b>a and b>c:
-    if a>c:
-         print (b, 'terbesar dan' , c,'terkecil')
+    print('')
+    print('=====================================')
+    print (b, 'Adalah Bilangan terbesar')
+else:
+    print('')
+    print('=====================================')
+    print(c, 'Adalah Bilangan terbesar')
+    print('=====================================')
